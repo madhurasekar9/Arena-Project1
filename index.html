@@ -1,17 +1,72 @@
+<!DOCTYPE html>
 <html>
-    <title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="assets/reset.css" rel="stylesheet" />
+    <link href="assets/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap" rel="stylesheet">
 
-    </title>
-    <head>
+    <script defer src="Assets/arena.js"></script>
+  </head>
+  <body>
+    <section class="herosection">
+      <!-- Replace this URL with your channel to connect the API! -->
+      <a href="https://www.are.na/dusha-castro/common-grand" id="channel-url">
+        <h1 class="channel-title"></h1>
+        <!-- The channel title will be inserted inside this h1. -->
+        <div class="channel-description"></div>
+        <!-- Same here for the channel description. -->
+      </a>
+    </section>
 
+    <section class="section2">
+      <ul
+        class="audio-embed-blocks audio-file-blocks image-blocks embed-blocks link-blocks pdf-blocks text-blocks video-embed-blocks video-file-blocks"
+      ></ul>
+    </section>
 
-    </head>
+    <template id="image-block">
+      <div>
+        <img class="image" />
+        <!-- <figcaption class="description"></figcaption> 
+					<p class="type"></p> 
+        <p>  </p> -->
+      </div>
+    </template>
 
-    <body>
+    <template id="video-file-block">
+      <div>
+        <img class="image" />
+      </div>
+    </template>
 
-<section>
-    
-</section>
+    <template id="video-embed-block">
+      <div>
+        <img class="image" /></div
+    ></template>
 
-    </body>
+    <template id="video-embed-block">
+      <div>
+        <img class="image" /></div
+    ></template>
+
+    <template id="link-block">
+      <div>
+        <img class="image" />
+      </div>
+    </template>
+
+    <template id="text-block">
+      <li>
+        <figure class="text-block">
+          <h3 class="title"></h3>
+          <div class="content"></div>
+          <!-- Text blocks insert their HTML here. -->
+        </figure>
+      </li>
+    </template>
+  </body>
 </html>

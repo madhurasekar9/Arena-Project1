@@ -1,0 +1,119 @@
+.body {
+    font-family: 'Petit Formal Script', cursive;
+  background-color: black;
+  width: 100vw;
+}
+
+.herosection {
+  height: 80vh;
+  width: 100%;
+  padding: 200px;
+  background-color: black;
+}
+
+.channel-title {
+  color: aliceblue;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 60px;
+  font-family: 'Petit Formal Script', cursive;
+}
+
+.channel-description {
+  width: 50%;
+  color: aliceblue;
+  font-size: 18px;
+  font-family: 'Petit Formal Script', cursive;
+}
+
+.image-blocks {
+  display: grid;
+  align-items: center;
+  align-self: center;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px;
+}
+
+.section2 {
+  padding: 40px;
+  background-color: rgb(25, 25, 25);
+}
+
+.image {
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.content {
+  color: aliceblue;
+  font-family: monospace;
+  width: 100%;
+  height: 350px;
+  background-color: rgb(50, 50, 50);
+  border-radius: 10px;
+  padding: 10%;
+}
+
+
+@media only screen and (max-width: 375px) {
+
+    .body{
+        width: 100vw;
+        background-color: black;
+    }
+
+    .image-blocks {
+        display: grid;
+        align-items: center;
+        align-self: center;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+      }
+
+      .herosection {
+        height: 40vh;
+        padding: 30px;
+        background-color: black;
+      }
+      
+      .channel-title {
+        color: aliceblue;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 60px;
+        font-family: 'Petit Formal Script', cursive;
+      }
+      
+      .channel-description {
+        width: 80%;
+        color: aliceblue;
+        font-size: 14px;
+        font-family: 'Petit Formal Script', cursive;
+      }
+
+      .section2 {
+        width: 90%;
+        padding: 10px;
+        background-color: rgb(25, 25, 25);
+      }
+      .image {
+        width: 100%;
+        height: 125px;
+        border-radius: 5px;
+      }
+
+      .content {
+        color: aliceblue;
+        font-family: monospace;
+        width: 100%;
+        height: 125px;
+        background-color: rgb(50, 50, 50);
+        border-radius: 5px;
+        padding: 10%;
+        font-size: 8px;
+      }
+}
+    
