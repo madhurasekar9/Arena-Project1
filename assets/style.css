@@ -1,8 +1,9 @@
 .body {
-    font-family: 'Petit Formal Script', cursive;
+  font-family: 'Petit Formal Script', cursive;
   background-color: black;
   width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
+  text-decoration: none;
 }
 
 .herosection {
