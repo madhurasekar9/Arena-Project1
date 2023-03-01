@@ -222,5 +222,5 @@ fetch(`https://api.are.na/v2/channels/${channel}?per=100`, {cache: 'no-store'})
 	.then(data => {
 		setBasics(data)
 		parseBlocks(data)
+		window.arenaCallback?.()
 	})
-

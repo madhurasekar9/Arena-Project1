@@ -7,66 +7,176 @@
     <link href="style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
+
 
     <script defer src="arena.js"></script>
+    <script defer src="main.js"></script>
   </head>
   <body>
     <section class="herosection">
       <!-- Replace this URL with your channel to connect the API! -->
       <a href="https://www.are.na/dusha-castro/common-grand" id="channel-url">
-        <h1 class="channel-title"></h1>
-        <!-- The channel title will be inserted inside this h1. -->
-        <div class="channel-description"></div>
-        <!-- Same here for the channel description. -->
+    
       </a>
+      <h1 class="channel-title"></h1>
+      <!-- The channel title will be inserted inside this h1. -->
+      <div class="channel-description"></div>
+      <!-- Same here for the channel description. -->
     </section>
 
     <section class="section2">
       <ul
-        class="audio-embed-blocks audio-file-blocks image-blocks embed-blocks link-blocks pdf-blocks text-blocks video-embed-blocks video-file-blocks"
+        class="audio-embed-blocks audio-file-blocks image-blocks embed-blocks link-blocks pdf-blocks video-embed-blocks video-file-blocks"
       ></ul>
     </section>
 
-    <template id="image-block">
-      <div>
-        <img class="image" />
-        <!-- <figcaption class="description"></figcaption> 
-					<p class="type"></p> 
-        <p>  </p> -->
+  
+  
+  
+  
+  
+    <section class="section3">
+        
+        <div>
+
+            <h2> Scribble board </h2>
+            <ul
+            class="text-blocks"
+          ></ul>
+
+        </div>
+        
+      </section>
+
+
+
+
+
+
+
+
+
+
+    <!-- <template id="image-block">
+      <div class="blackbg">
+        <figure>
+        <picture>
+            <source class="image-square">
+            <img class="image">
+        </picture>
+    </figure>
+<aside>
+    <img class="image">
+</aside>
+
       </div>
+    </template> -->
+
+
+    <template id="image-block">  
+        <li class="image-block">
+           <div class="blackbg">
+            <figure class="image-block">
+                
+                <picture>
+        
+                    <source class="image-square">
+                  
+                    <img class="image">
+                </picture>
+    
+        
+                
+            </figure>
+        </div>
+            <aside>
+                <h1>Hello</h1>
+                <img class="image">
+            </aside>
+      
+        </li>
     </template>
+
+
 
     <template id="video-file-block">
-      <div>
-        <img class="image" />
-      </div>
+      <a class="link blackbg">
+        <picture>
+            <source class="image-square">
+            <source class="image-display">
+            <img class="image">
+        </picture>
+    </a>
     </template>
 
     <template id="video-embed-block">
-      <div>
-        <img class="image" /></div
+      <a class="link blackbg">
+        <picture>
+            <source class="image-square">
+            <source class="image-display">
+            <img class="image">
+        </picture>
+        </a
     ></template>
 
-    <template id="video-embed-block">
+    <template id="embed-block">
       <div>
-        <img class="image" /></div
+        <picture>
+            <source class="image-square">
+            <source class="image-display">
+            <img class="image">
+        </picture>
+        </div
     ></template>
 
     <template id="link-block">
-      <div>
-        <img class="image" />
-      </div>
+      <a class="link">
+        <picture>
+            <source class="image-square">
+            <source class="image-display">
+            <img class="image">
+
+            
+        </picture>
+
+      
+    </a>
     </template>
+
+    <template id="audio-embed-block">
+        <div>
+            <picture>
+                <source class="image-square">
+                <source class="image-display">
+                <img class="image">
+            </picture>
+        </div>
+      </template>
+
+      <template id="audio-file-block">
+        <div>
+            <picture>
+                <source class="image-square">
+                <source class="image-display">
+                <img class="image">
+            </picture>
+        </div>
+      </template>
 
     <template id="text-block">
       <li>
         <figure class="text-block">
           <h3 class="title"></h3>
-          <div class="content"></div>
+          <div class="content" id="content"></div>
           <!-- Text blocks insert their HTML here. -->
         </figure>
       </li>
     </template>
+
+
+
   </body>
 </html>
