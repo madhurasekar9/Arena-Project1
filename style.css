@@ -1,5 +1,5 @@
 .body {
-  background-color: black;
+  background-color: rgb(25, 25, 25);
   width: 100%;
   overflow-x: hidden;
   text-decoration: none;
@@ -7,10 +7,17 @@
 
 
 .herosection {
-  height: 40vh;
-  padding: 100px;
-  background-color: black;
+  height: 60vh;
+  background-color: rgb(25, 25, 25);
 }
+
+.linebreak
+{
+  padding: 5px;
+  width: 100%;
+  background-color: aqua;
+margin-bottom: 20px;}
+
 .blackbg{
   background-color: aliceblue;
   height: 100%;
@@ -20,14 +27,17 @@
   color: aliceblue;
   font-size: 100px;
   font-weight: 900;
-  line-height: 60px;
   font-family:sans-serif;
   text-decoration: none;
-  padding-bottom: 30px;
+  padding: auto;
+  height: 150px;
+  
 }
 
 .channel-description {
-  width: 40%;
+  padding-left: 30%;
+  padding-right: 30%;
+  text-align: center;
   color: rgb(234, 234, 234);
   font-size: 16px;
   font-family: sans-serif;
@@ -61,12 +71,21 @@
   background-color: rgb(25, 25, 25);
 }
 
+h2{
+font-size: 40px;
+align-self: center;
+font-family: 'Reenie Beanie', cursive;
+color: aliceblue;
+padding-bottom: 20px;
+padding-top: 20px;}
+
 .section3 {
-  background-color: aliceblue;
+  background-color:rgb(25, 25, 25);
   padding-top: 40px;
   padding-right: 40px;
   padding-left: 40px;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
+  margin-top: -5px;
  
 }
 
@@ -77,6 +96,7 @@
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 50px;
+  
 
 }
 
@@ -94,7 +114,8 @@
   font-family: 'Reenie Beanie', cursive;
   font-size: 20px;
   border-radius: 0%;
-  height: 200px;
+  height: 230px;
+  border-radius: 5px;
 }
 
 
@@ -127,6 +148,45 @@ figure>img { object-fit: cover;}
   display: block;
   background-color: aqua;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  letter-spacing: 1px;
+  color: #333;
+}
+h1 span {
+  display: inline-block;
+  animation: slideLeft 1.5s forwards;
+  opacity: 0;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes slideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(200px);
+  } 
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+
+
+
 
 
 @media only screen and (max-width: 375px) {
@@ -172,6 +232,17 @@ figure>img { object-fit: cover;}
         padding: 10px;
         background-color: rgb(25, 25, 25);
       }
+
+      .text-blocks {
+        display: block;
+         align-items: center;}
+     
+      #content{
+      margin-bottom: 20px;
+      height: auto;
+
+ 
+      }
       /* .image {
         width: 100%;
         height: 125px;
@@ -189,11 +260,4 @@ figure>img { object-fit: cover;}
         font-size: 8px;
       }
 
-      .text-blocks {
-       display: block;
-        align-items: center;}
     
-#content{
- margin-bottom: 20px;
-
-}
