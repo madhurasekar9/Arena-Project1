@@ -186,7 +186,9 @@ h1 span {
   }
 }
 
-@media only screen and (max-width: 375px) {
+
+
+@media only screen and (max-width: 500px) {
   .body {
     width: 100vw;
     background-color: black;
@@ -222,12 +224,10 @@ h1 span {
   }
 
   .channel-description {
-    width: 95%;
+    width: 100%;
     color: aliceblue;
     font-size: 9px;
-  
     align-content: center;
-   
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
@@ -277,7 +277,7 @@ h1 span {
 }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 375px) {
   .body {
     width: 100vw;
     background-color: black;
@@ -316,7 +316,9 @@ h1 span {
     width: 100%;
     color: aliceblue;
     font-size: 9px;
+  
     align-content: center;
+   
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
