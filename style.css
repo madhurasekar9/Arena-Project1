@@ -188,6 +188,7 @@ h1 span {
   .body {
     width: 100vw;
     background-color: black;
+    overflow-x: hidden;
   }
 
   .image-blocks {
@@ -219,7 +220,7 @@ h1 span {
   }
 
   .channel-description {
-    width: 100%;
+    width: 95%;
     color: aliceblue;
     font-size: 9px;
     padding: 10px;
@@ -274,6 +275,8 @@ h1 span {
   .body {
     width: 100vw;
     background-color: black;
+    overflow-x: hidden;
+    overflow: hidden;
   }
 
   .image-blocks {
@@ -305,7 +308,7 @@ h1 span {
   }
 
   .channel-description {
-    width: 100%;
+    width: 90%;
     color: aliceblue;
     font-size: 9px;
     padding: 10px;
