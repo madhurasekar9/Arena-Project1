@@ -224,6 +224,8 @@ h1 span {
     color: aliceblue;
     font-size: 9px;
     padding: 10px;
+    align-content: center;
+    padding-left: 10px;
     padding-bottom: 20px;
 
     text-decoration: none;
