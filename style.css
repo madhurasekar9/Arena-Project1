@@ -117,12 +117,14 @@ h2 {
   border-radius: 0%;
   height: 230px;
   border-radius: 5px;
+  padding: 10px;
 }
 
 figure,
 img {
   height: 100%;
   width: 100%;
+  background-color: rgb(46, 46, 46);
 }
 
 figure > img {
@@ -223,11 +225,13 @@ h1 span {
     width: 95%;
     color: aliceblue;
     font-size: 9px;
-    padding: 10px;
+  
     align-content: center;
-    padding-left: 10px;
-    padding-bottom: 20px;
-
+   
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-decoration: none;
   }
 
@@ -278,7 +282,6 @@ h1 span {
     width: 100vw;
     background-color: black;
     overflow-x: hidden;
-    overflow: hidden;
   }
 
   .image-blocks {
@@ -310,12 +313,14 @@ h1 span {
   }
 
   .channel-description {
-    width: 90%;
+    width: 100%;
     color: aliceblue;
     font-size: 9px;
-    padding: 10px;
-    padding-bottom: 20px;
-
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-decoration: none;
   }
 
